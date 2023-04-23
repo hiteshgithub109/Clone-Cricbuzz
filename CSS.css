@@ -322,6 +322,39 @@ a {
     color: #666;
 }
 
-.dnb{
+.dnb {
     display: inline-block;
+}
+
+.mat-info-itm {
+    padding: 6px 10px;
+    border-bottom: 1px solid #ecebeb;
+    overflow: auto;
+    font-size: 13px;
+    box-sizing: border-box;
+}
+
+.mat-info-tmname {
+    padding: 10px 10px 0px;
+    overflow: auto;
+    font-size: 13px;
+    box-sizing: border-box;
+}
+
+.mat-info-tmname2 {
+    border-top: 1px solid #ecebeb;
+    margin-top: 10px;
+    padding: 10px 10px 0px;
+    overflow: auto;
+    font-size: 13px;
+    box-sizing: border-box;
+}
+
+.mat-info-player {
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.mat-info-player-hover:hover {
+    text-decoration: underline solid;
 }
