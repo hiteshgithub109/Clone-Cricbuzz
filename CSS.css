@@ -1,0 +1,327 @@
+li {
+    float: left;
+    list-style: none;
+}
+
+body {
+    font-family: helvetica, "Segoe UI", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    background-color: #E3E6E3;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 980px;
+    margin: auto auto;
+}
+
+.ad {
+    min-height: 90px;
+    margin-bottom: 10px;
+}
+
+#navbar1 {
+    background-color: #009270;
+}
+
+#navbar1 ul {
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+
+#navbar1 .navbr1-item a {
+    color: #dff8f2;
+}
+
+#navbar1 .navbr1-item {
+    padding: 15px 10px 15px 10px;
+}
+
+#navbar1 .navbr1-item:hover {
+    background-color: #007e60;
+}
+
+#navbar1logo {
+    padding-top: 5px;
+    padding-bottom: 3px;
+    float: left;
+    height: 37px;
+    margin: 0px 10px;
+    cursor: pointer;
+}
+
+#plus {
+    padding: 15px 10px 15px 10px;
+    margin-top: 10px;
+    padding-top: 5px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+#plus a {
+    color: #666666;
+}
+
+.mb-navb {
+    background-color: #4A4A4A;
+    width: 980px;
+}
+
+.mb-navb ul {
+    overflow: auto;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.mb-navb-li {
+    float: left;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    padding: 10px 15px;
+}
+
+.mb-navb nav {
+    width: 980px;
+}
+
+.mb-navb a:hover {
+    background-color: #333333;
+}
+
+.mb-navb span {
+    float: left;
+    padding: 10px 35px;
+}
+
+.main-page {
+    background-color: #fff;
+    width: 980px;
+    overflow: auto;
+}
+
+.top {
+    padding: 0px 0px 0px 20px;
+    overflow: auto;
+    border-bottom: 1px solid #80808059;
+}
+
+.page-info {
+    width: 940px;
+}
+
+.page-info h1 {
+    padding-top: 15px;
+    margin: 0px;
+    line-height: 24px;
+    font-size: 18px;
+}
+
+.svdt {
+    padding: 5px 0px 10px 0px;
+    font-size: 12px;
+    float: left;
+    color: rgb(83, 81, 81);
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.svdt a {
+    text-decoration: none;
+    color: rgb(83, 81, 81);
+}
+
+.svdt a:hover {
+    text-decoration: underline;
+    color: rgb(83, 81, 81);
+}
+
+.pad-left {
+    padding-left: 30px;
+}
+
+.mb-navb2 {
+    clear: left;
+    padding-top: 10px;
+}
+
+.mb-navb2-ul {
+    margin: 0px;
+    padding: 0px;
+    float: left;
+}
+
+.mb-navb2-li {
+    padding-bottom: 6px;
+    margin-right: 20px;
+}
+
+.mb-navb2-li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.mb-navb2-li a:active {
+    color: #009270;
+}
+
+.mb-navb2-li:active {
+    border-bottom: 3px solid #009270;
+    font-weight: bold;
+}
+
+.tables-left {
+    box-sizing: border-box;
+    float: left;
+    width: 67%;
+    border-right: 1px solid #8080803d;
+    padding: 15px 10px;
+}
+
+.more-right {
+    box-sizing: border-box;
+    float: left;
+    width: 33%;
+}
+
+.result {
+    color: #1866db;
+    float: left;
+    padding: 15px;
+    padding-top: 0px;
+}
+
+.rcb-inni {
+    clear: both;
+    overflow: auto;
+}
+
+.pbks-inni {
+    clear: both;
+    overflow: auto;
+    padding: 10px 0px;
+}
+
+.inni-header {
+    background-color: #4A4A4A;
+    color: white;
+    padding: 10px 8px;
+    overflow: auto;
+}
+
+.teamname {
+    float: left;
+}
+
+.teamscore {
+    float: right;
+}
+
+.subheader {
+    background-color: #ECEBEB;
+    float: left;
+    padding: 1px 3px;
+    width: 100%;
+    overflow: auto;
+    box-sizing: border-box;
+}
+
+.width-25 {
+    float: left;
+    width: 25%;
+    text-align: left;
+}
+
+.width-33 {
+    float: left;
+    width: 33%;
+    text-align: left;
+}
+
+.width-32 {
+    float: left;
+    width: 32%;
+    text-align: left;
+}
+
+.width-8 {
+    float: left;
+    width: 8%;
+    box-sizing: border-box;
+    text-align: right;
+}
+
+.width-60 {
+    float: left;
+    width: 60%;
+    text-align: left;
+}
+
+.width-27 {
+    float: left;
+    width: 27%;
+    text-align: left;
+}
+
+.width-73 {
+    float: left;
+    width: 73%;
+    text-align: left;
+}
+
+.width-38 {
+    float: left;
+    width: 38%;
+    text-align: left;
+}
+
+.width-10 {
+    float: left;
+    width: 10%;
+    text-align: right;
+}
+
+.subheader {
+    color: rgb(83, 81, 81);
+    font-size: 12px;
+    padding: 4px 10px;
+}
+
+.table-col {
+    padding: 4px 10px;
+    border-bottom: 1px solid #ecebeb;
+    overflow: auto;
+    font-size: 13px;
+    box-sizing: border-box;
+}
+
+.crd-comp-style {
+    margin: auto;
+}
+
+.player {
+    box-sizing: border-box;
+    color: #1866db;
+    cursor: pointer;
+}
+
+.player-hover:hover {
+    text-decoration: underline solid #1866db;
+}
+
+.player-status {
+    color: #666;
+}
+
+.dnb{
+    display: inline-block;
+}
